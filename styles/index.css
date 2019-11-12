@@ -11,7 +11,7 @@ a {
 
 .opening-page {
     height: 100vh;
-    background-image: url(https://lorempixel.com/g/1920/1080/technics);
+    background-image: url(https://picsum.photos/id/911/1920/1080?grayscale);
     background-size: 100%;
     position: relative;
 }
@@ -68,7 +68,7 @@ a {
 .main {
     height: 100vh;
     position: relative;
-    background-image: url(https://lorempixel.com/g/1920/1079/technic);
+    background-image: url(https://picsum.photos/1920/1080?grayscale&random=2);
     background-size: 100%;
 }
 
