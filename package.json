@@ -1,0 +1,19 @@
+{
+  "name": "sethtorrence",
+  "version": "1.0.0",
+  "description": "Portfolio Website / resume",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torrence15/sethtorrence.git"
+  },
+  "author": "Seth Torrence <slionel1850@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Torrence15/sethtorrence/issues"
+  },
+  "homepage": "https://github.com/Torrence15/sethtorrence#readme"
+}
