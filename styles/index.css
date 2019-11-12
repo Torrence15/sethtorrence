@@ -11,7 +11,7 @@ a {
 
 .opening-page {
     height: 100vh;
-    background-image: url(https://lorempixel.com/g/1280/720/city);
+    background-image: url(https://lorempixel.com/g/1920/1080/technics);
     background-size: 100%;
     position: relative;
 }
@@ -68,7 +68,7 @@ a {
 .main {
     height: 100vh;
     position: relative;
-    background-image: url(https://lorempixel.com/g/1280/720/nature);
+    background-image: url(https://lorempixel.com/g/1920/1079/technic);
     background-size: 100%;
 }
 
@@ -113,7 +113,8 @@ hr {
 }
 
 .main-box-list {
-    text-align: center;
+    padding-left: 15.5vw;
+    text-align: left;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 24px;
