@@ -129,3 +129,7 @@ li {
     border-width: 1px;
     border-color: #333;
 }
+
+.contact-page {
+    height: 100vh;
+}
