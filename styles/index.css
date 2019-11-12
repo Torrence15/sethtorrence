@@ -11,7 +11,8 @@ a {
 
 .opening-page {
     height: 100vh;
-    background-image: url(http://picsum.photos/1920/1080?grayscale);
+    background-image: url(https://lorempixel.com/g/1280/720/city);
+    background-size: 100%;
     position: relative;
 }
 
@@ -39,14 +40,14 @@ a {
     font-size: 24px;
 }
 
-.opening-footer {
+.opening-footer, .main-footer {
     width: 100%;
-    background-color: #333;
+    background-color: black;
     position: absolute;
     bottom: 0;
     vertical-align: center;
     text-align: center;
-    opacity: .6;
+    opacity: .7;
 }
 
 .blink {
@@ -66,5 +67,65 @@ a {
 
 .main {
     height: 100vh;
-    background-color: #fff
+    position: relative;
+    background-image: url(https://lorempixel.com/g/1280/720/nature);
+    background-size: 100%;
+}
+
+.main-box {
+    background-color: whitesmoke;
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+    top: 3vh;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: black 0.1vh 0.1vh 2px;
+}
+
+.main-box-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+hr {
+    visibility: hidden;
+}
+
+.main-box-text:first-of-type {
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-box-text {
+    text-align: left;
+    word-wrap: normal;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding: 0 5vw;
+}
+
+.main-box-text:nth-of-type(3) {
+    font-size: 30px;
+}
+
+.main-box-list {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    list-style: none;
+}
+
+li {
+    padding: 1vh 0;
+}
+
+.main-box-list-right {
+    border-style: none none none solid;
+    border-width: 1px;
+    border-color: #333;
 }
