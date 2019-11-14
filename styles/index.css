@@ -11,7 +11,7 @@ a {
 
 .opening-page {
     height: 100vh;
-    background-image: url(https://picsum.photos/id/911/1920/1080?grayscale);
+    background-image: url(/images/10.jpg);
     background-size: 100%;
     position: relative;
 }
@@ -66,9 +66,9 @@ a {
 }
 
 .main {
+    background-image: url(/images/1.jpg);
     height: 100vh;
     position: relative;
-    background-image: url(https://picsum.photos/1920/1080?grayscale&random=2);
     background-size: 100%;
 }
 
