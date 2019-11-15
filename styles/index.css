@@ -4,6 +4,9 @@ body {
     padding: 0;
     height: 100%;
     scroll-behavior: smooth;
+    /*
+    overflow: hidden;
+    */
 }
 
 a {
@@ -43,7 +46,7 @@ a {
 
 .opening-footer,
 .main-footer,
-.contact-footer {
+.history-footer {
     width: 100%;
     background-color: black;
     position: absolute;
@@ -51,6 +54,23 @@ a {
     vertical-align: center;
     text-align: center;
     opacity: 0.7;
+}
+
+.contact-header {
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    vertical-align: center;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.blinki {
+    color: white;
+    font-size: 30px;
+    animation: blinking 1.5s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
+    transform: translate(-25%, 15%);
 }
 
 .blink {
@@ -76,7 +96,8 @@ a {
     background-size: 100%;
 }
 
-.main-box {
+.main-box,
+.history-box {
     background-color: whitesmoke;
     position: absolute;
     width: 90vw;
@@ -129,10 +150,16 @@ li {
     padding: 1vh 0;
 }
 
-.main-box-list-right {
+.main-box-list-right,
+.history-box-list-right {
     border-style: none none none solid;
     border-width: 1px;
     border-color: #333;
+}
+
+.history-page {
+    position: relative;
+    height: 100vh;
 }
 
 .contact-page {

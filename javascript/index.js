@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('image1').style.backgroundImage = pic1
     document.getElementById('main').style.backgroundImage = pic2
-    document.getElementById('contact').style.backgroundImage = pic3
+    document.getElementById('history').style.backgroundImage = pic3
+    document.getElementById('contact').style.backgroundImage = pic4
 })
 
 const pictures = {
@@ -37,3 +38,4 @@ function shuffle(a) {
     }
     return a
 }
+
