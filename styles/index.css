@@ -106,6 +106,17 @@ a {
     box-shadow: black 0.1vh 0.1vh 2px;
 }
 
+.contact-box {
+    background-color: whitesmoke;
+    position: absolute;
+    width: 50vw;
+    height: 90vh;
+    top: 6vh;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: black 0.1vh 0 0.1vh 2px;
+}
+
 .main-box-title {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
@@ -163,4 +174,62 @@ li {
 .contact-page {
     position: relative;
     height: 100vh;
+}
+
+input[type=text], input[type=email] {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    background-color: lightgray;
+    width: 94%;
+    margin: 10px 20px;
+}
+
+textarea {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    resize: none;
+    color: black;
+    background-color: lightgray;
+    width: 94%;
+    margin: 10px 20px;
+    height: 43vh;
+}
+
+input[type=submit] {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    background-color: #48fd86;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 80%;
+    height: 50px;
+    left: 50%;
+    bottom: 25px;
+    transform: translate(-50%)
+}
+
+input[type=submit]:hover {
+    background-color: #3fd974;
+    transition: 0.2s;
+}
+
+label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+#get-in-touch {
+    margin-bottom: 20px;
 }
